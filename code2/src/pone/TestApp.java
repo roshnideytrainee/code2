@@ -21,7 +21,7 @@ class Employee {
         }
         //Step 2: Establishing the Connectivity
         try {
-            con = DriverManager.getConnection("jdbc:oracle:thin:@LAPTOP-FVKFC8JT:1521:xe", "nri_test2", "pinakib");
+            con = DriverManager.getConnection("jdbc:oracle:thin:@LAPTOP-FVKFC8JT:1521:xe", "nri_test2", "roshnid");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
